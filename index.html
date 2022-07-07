@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Receipt</title>
+
+    <!-- google fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awsome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header  -->
+    <div class="topbar"></div>
+    <div class="logo-box">
+      <img src="./img/image-002.png" alt="" width="100" />
+    </div>
+
+    <h2 class="receipt-title">Receipt</h2>
+
+    <!-- receipt details -->
+
+    <div class="receipt-details">
+      <!-- issued to  -->
+      <div class="left-col">
+        <h2 class="issued-to">issued to</h2>
+        <p class="issued-to-name">Adewale ayodele orlanrewaju</p>
+      </div>
+
+      <!-- issued by -->
+      <div class="right-col">
+        <h2 class="issued-by">issued by</h2>
+        <p class="issued-by-name">mafit study</p>
+        <p class="issued-by-desc">immigration department</p>
+        <p class="issued-by-address">
+          77, Obafemi awolowo way, <br />
+          ikeja, lagos, nigeria
+        </p>
+        <p class="issued-by-email">immigration@gregmattoeflnigeria.com</p>
+      </div>
+    </div>
+
+    <!-- receipt btns -->
+    <div class="btns">
+      <div class="btn pri-btn">
+        <div class="btn-icon">
+          <img
+            src="./img/receipt-pri-btn.PNG"
+            width="30"
+            alt=""
+            class="receipt-icon"
+          />
+        </div>
+        <div class="btn-text">
+          <p class="receipt-btn-text">receipt no</p>
+          <p class="receipt-no">#00123356</p>
+        </div>
+      </div>
+
+      <div class="btn sec-btn">
+        <div class="btn-icon">
+          <img
+            src="./img/receipt-sec-btn.PNG"
+            width="30"
+            alt=""
+            class="receipt-icon"
+          />
+        </div>
+        <div class="sec-btn-text">
+          <p class="receipt-btn-text">receipt date</p>
+          <p class="receipt-date">10 jan 2022</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- main table -->
+
+    <div class="table">
+      <div class="table-col table-col-one">
+        <h2 class="table-title table-title-red">item description</h2>
+        <div class="list-item">
+          <div class="list-item-text">
+            <h3 class="list-item-title table-one-list-item-title">
+              care package
+            </h3>
+            <p class="list-item-desc">
+              care traning, certification, mafit training and documentation
+              (international driver's liscence, police charector report,
+              document support)
+            </p>
+          </div>
+        </div>
+        <div class="list-item"></div>
+        <div class="list-item"></div>
+        <div class="list-item"></div>
+        <div class="list-item"></div>
+      </div>
+      <div class="table-col table-col-two">
+        <h2 class="table-title table-title-pri">Price / item</h2>
+        <div class="list-item">
+          <div class="list-item-text">
+            <p class="price">500,000</p>
+          </div>
+        </div>
+
+        <div class="list-item"></div>
+        <div class="list-item"></div>
+        <div class="list-item"></div>
+        <div class="list-item"></div>
+      </div>
+      <div class="table-col table-col-three">
+        <h2 class="table-title table-title-pri-light">Qty</h2>
+        <div class="list-item">
+          <div class="list-item-text">
+            <p class="quantity">1</p>
+          </div>
+        </div>
+
+        <div class="list-item"></div>
+        <div class="list-item"></div>
+        <div class="list-item"></div>
+        <div class="list-item"></div>
+      </div>
+      <div class="table-col table-col-four">
+        <h2 class="total-title">Total <span class="small">(Naira)</span></h2>
+        <div class="list-item-total">
+          <div class="list-item-text">
+            <p class="total">500,000</p>
+          </div>
+        </div>
+
+        <div class="list-item-total"></div>
+        <div class="list-item-total"></div>
+        <div class="list-item-total"></div>
+        <div class="list-item-total"></div>
+      </div>
+    </div>
+
+    <!-- more details -->
+    <div class="more-details">
+      <div class="left-col">
+        <div class="terms-conditions">
+          <p class="terms">Terms and conditions</p>
+          <p class="terms-desc">payment is non-refundable</p>
+        </div>
+
+        <div class="payment-method">
+          <p class="payment">payment method</p>
+          <div class="payment-desc">bank transfer</div>
+        </div>
+      </div>
+
+      <div class="right-col">
+        <p class="sub-total">
+          sub total: <span class="subtotal-amount">n500,000</span>
+        </p>
+        <div class="amount-highlighted-main">
+          <p class="amount-highlighted">N500,000</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+
+    <div class="stamp">
+      <div class="stamp-img">
+        <img src="./img/stamp-img.PNG" alt="" width="200" />
+      </div>
+
+      <div class="stamp-text">
+        <h2 class="stamp-name">ayomikun fawole</h2>
+        <p class="stamp-desc">client support officer</p>
+      </div>
+    </div>
+
+    <div class="footer-box">
+      <div class="footer-box-text">
+        <div class="whatsapp">
+          <div class="whatsapp-icon">
+            <i class="fa-brands fa-whatsapp"></i>
+          </div>
+          <div class="numbers">
+            <p class="whatsapp-number">08077566021</p>
+            <p class="whatsapp-number">08077566023</p>
+            <p class="whatsapp-number">07059236226</p>
+          </div>
+        </div>
+
+        <div class="location">
+          <div class="location-icon">
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
+          <p class="address">
+            head office: 77, obafemi awolowo way, ikeja, lagos, nigeria
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="bottombar"></div>
+  </body>
+</html>
